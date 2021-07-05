@@ -1,0 +1,58 @@
+enabled: true
+dropdown:
+  enabled: true
+use_minified_css: '1'
+cdn_bootstrap_css: '1'
+cdn_bootswatch_css: darkly
+cdn_fontawesome_css: '1'
+cdn_hover_css: '0'
+cdn_animate_css: '0'
+cdn_jquery_js: '1'
+cdn_bootstrap_js: '1'
+cdn_modernizr_js: '1'
+navbar:
+  type: navbar
+  style: navbar-dark
+  container: navbar
+  bgstyle: bg-dark
+  bgcolor: '#ffffff'
+  dropdown: '1'
+  expand: navbar-expand-md
+  icon: favicon.512.png
+  icon_size: 40
+  classes: 'my-5 rounded rounded-lg'
+favicon:
+  ico: favicon.ico
+  png: favicon.512.png
+  svg: favicon.svg
+  mstile_sq: favicon.512.png
+  mstile_re: favicon.512.png
+fb_app_id: null
+twitter_handle: null
+og_image: null
+chrome:
+  theme_color: '#424a50'
+  app_capable: 'no'
+  app_display: standalone
+  app_manifest: /manifest
+  app_start_url: /home
+  app_scope: /
+  app_name: null
+  app_short_name: null
+ms:
+  theme_color: '#424a50'
+  tile_color: '#424a50'
+  browserconfig: /browserconfig
+ios:
+  theme_color: default
+  app_capable: 'no'
+map:
+  type: google
+  api_key: null
+default_author: null
+footer:
+  classes: 'text-center py-3 mt-5'
+  bgstyle: bg-dark
+  content: 'site and design by TomSquared | built with <a href="https://getgrav.org">grav</a>'
+  container: container-fluid
+  sticky: '1'

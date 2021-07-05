@@ -1,0 +1,13 @@
+name: T2B4 Site
+version: 1.0.0
+description: "T2B4 is a minimal Grav implementation with Bootstrap 4.6, Bootswatch, FontAwesome, Hoever.css and Animate.css"
+icon: group
+author:
+  name: TomSquared
+  email: toms@tomsquared.co.uk
+  url: https://tomsquared.co.uk
+homepage: https://github.com/stom66/grav-skeleton-t2b4
+demo: https://grav.tomsquared.co.uk
+keywords: bootstrap, bootswatch, hover.css, animate.css, grav, skeleton
+bugs: https://github.com/stom66/grav-skeleton-t2b4/issues
+license: MIT

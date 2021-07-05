@@ -1,0 +1,98 @@
+git:
+    error:
+        url: https://github.com/getgrav/grav-plugin-error
+        path: user/plugins/error
+        branch: develop
+    problems:
+        url: https://github.com/getgrav/grav-plugin-problems
+        path: user/plugins/problems
+        branch: develop
+    simplesearch:
+        url: https://github.com/getgrav/grav-plugin-simplesearch
+        path: user/plugins/simplesearch
+        branch: develop
+    feed:
+        url: https://github.com/getgrav/grav-plugin-feed
+        path: user/plugins/feed
+        branch: develop
+    random:
+        url: https://github.com/getgrav/grav-plugin-random
+        path: user/plugins/random
+        branch: develop
+    pagination:
+        url: https://github.com/getgrav/grav-plugin-pagination
+        path: user/plugins/pagination
+        branch: develop
+    relatedpages:
+        url: https://github.com/getgrav/grav-plugin-relatedpages
+        path: user/plugins/relatedpages
+        branch: develop
+    email:
+        url: https://github.com/getgrav/grav-plugin-email
+        path: user/plugins/email
+        branch: master
+    form:
+        url: https://github.com/getgrav/grav-plugin-form
+        path: user/plugins/form
+        branch: master
+    taxonomylist:
+        url: https://github.com/getgrav/grav-plugin-taxonomylist
+        path: user/plugins/taxonomylist
+        branch: develop
+    archives:
+        url: https://github.com/getgrav/grav-plugin-archives
+        path: user/plugins/archives
+        branch: develop
+    t2b4:
+        url: https://github.com/stom66/grav-theme-t2b4
+        path: user/themes/t2b4
+        branch: master
+links:
+    error:
+        src: grav-plugin-error
+        path: user/plugins/error
+        scm: github
+    problems:
+        src: grav-plugin-problems
+        path: user/plugins/problems
+        scm: github
+    simplesearch:
+        src: grav-plugin-simplesearch
+        path: user/plugins/simplesearch
+        scm: github
+    feed:
+        src: grav-plugin-feed
+        path: user/plugins/feed
+        scm: github
+    random:
+        src: grav-plugin-random
+        path: user/plugins/random
+        scm: github
+    pagination:
+        src: grav-plugin-pagination
+        path: user/plugins/pagination
+        scm: github
+    relatedpages:
+        src: grav-plugin-relatedpages
+        path: user/plugins/relatedpages
+        scm: github
+    email:
+        src: grav-plugin-email
+        path: user/plugins/email
+        scm: github
+    form:
+        src: grav-plugin-form
+        path: user/plugins/form
+        scm: github
+    taxonomylist:
+        src: grav-plugin-taxonomylist
+        path: user/plugins/taxonomylist
+        scm: github
+    archives:
+        src: grav-plugin-archives
+        path: user/plugins/archives
+        scm: github
+    t2b4:
+        src: grav-theme-t2b4
+        path: user/themes/t2b4
+        scm: github
