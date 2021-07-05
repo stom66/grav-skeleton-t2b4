@@ -46,7 +46,7 @@ git:
     t2b4:
         url: https://github.com/stom66/grav-theme-t2b4
         path: user/themes/t2b4
-        branch: master
+        branch: main
 links:
     error:
         src: grav-plugin-error
