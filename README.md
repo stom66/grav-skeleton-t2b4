@@ -1,12 +1,6 @@
-# ![](https://avatars1.githubusercontent.com/u/8237355?v=2&s=50) T2B4 Grav Skeleton
+# ![](https://avatars1.githubusercontent.com/u/8237355?v=2&s=50) Grav Skeleton T2B4
 
-This is the T2B4 Grav skeleton. It includes a Grav installation pre-configured with the relevant pages and the T2B4 theme. See the [grav-t2b4](https://github.com/stom66/grav-t2b4) repository for more information on using the theme itself.
-
-# Installation
-
-To get started with the skeleton simply clone this directory, including its sub-modules:
-
-`git clone --recurse-submodules https://github.com/stom66/grav-t2b4-skeleton.git`
+This is the T2B4 Grav skeleton. It includes a copy of the `user` folder with sample pages and relevant config files. See the [grav-theme-t2b4](https://github.com/stom66/grav-theme-t2b4) repository for more information on using the theme itself.
 
 # Features
 
@@ -14,31 +8,23 @@ To get started with the skeleton simply clone this directory, including its sub-
 * Numerous customizable options through admin interface
 * 25 Predefined Bootswatch themes
 
-## Basic Setup for a new Grav site
+# Installation for a new site
 
-The simplest way to install T2B4 theme for Grav is to download and install the T2B4 Skeleton package:
+As this theme is under development the only way to install it is to manually replace the `user` folder of a default Grav install with this repository.
 
-1. [Download T2B4 Skeleton](http://getgrav.org/downloads/skeletons#extras)
-2. Simply unzip the package into your web root folder.
-3. Point your browser at the folder, job done!
+You can do this from the command line as follows:
+
+`git clone -b master https://github.com/getgrav/grav.git public_html`
+`mv public_html/user public_html/user.old`
+`git clone https://github.com/stom66/grav-skeleton-t2b4 public_html/user`
+`git clone https://github.com/stom66/grav-theme-t2b4 public_html/user/themes/t2b4`
 
 **TIP:** Check out the [general Grav installation instructions](http://learn.getgrav.org/basics/installation) for more details on this process.
-
----
-
-## Existing Grav site
-
-It is possible to install just the theme, but page content will need to reference the [TwentyFifteen theme](https://github.com/getgrav/grav-theme-twentyfifteen)'s supported templates.  It is strongly advised to at least install the TwentyFifteen Skeleton package to see the theme's capabilities in action.
-
-To install  **just** the theme:
-
-```
-$ bin/gpm install twentyfifteen
-```
 
 
 ### Documentation
 
 The full documentation can be found from [learn.getgrav.org](https://learn.getgrav.org).
 
+See the [grav-theme-t2b4](https://github.com/stom66/grav-theme-t2b4) repository for more information on using the theme itself.
 
