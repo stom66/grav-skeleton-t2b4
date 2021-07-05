@@ -14,11 +14,13 @@ As this theme is under development the only way to install it is to manually rep
 
 You can do this from the command line as follows:
 
-`git clone -b master https://github.com/getgrav/grav.git public_html`
-`mv public_html/user public_html/user.old`
-`git clone https://github.com/stom66/grav-skeleton-t2b4 public_html/user`
-`cd public_html`
-`bin/grav install`
+```
+git clone -b master https://github.com/getgrav/grav.git public_html
+mv public_html/user public_html/user.old
+git clone https://github.com/stom66/grav-skeleton-t2b4 public_html/user
+cd public_html
+bin/grav install
+```
 
 **TIP:** Check out the [general Grav installation instructions](http://learn.getgrav.org/basics/installation) for more details on this process.
 
