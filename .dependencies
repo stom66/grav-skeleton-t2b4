@@ -3,6 +3,18 @@ git:
         url: https://github.com/getgrav/grav-plugin-admin
         path: user/plugins/admin
         branch: develop
+    email:
+        url: https://github.com/getgrav/grav-plugin-email
+        path: user/plugins/email
+        branch: master
+    form:
+        url: https://github.com/getgrav/grav-plugin-form
+        path: user/plugins/form
+        branch: master
+    login:
+        url: https://github.com/getgrav/grav-plugin-login
+        path: user/plugins/login
+        branch: master
     error:
         url: https://github.com/getgrav/grav-plugin-error
         path: user/plugins/error
@@ -31,14 +43,6 @@ git:
         url: https://github.com/getgrav/grav-plugin-relatedpages
         path: user/plugins/relatedpages
         branch: develop
-    email:
-        url: https://github.com/getgrav/grav-plugin-email
-        path: user/plugins/email
-        branch: master
-    form:
-        url: https://github.com/getgrav/grav-plugin-form
-        path: user/plugins/form
-        branch: master
     taxonomylist:
         url: https://github.com/getgrav/grav-plugin-taxonomylist
         path: user/plugins/taxonomylist
@@ -55,6 +59,18 @@ links:
     admin:
         src: grav-plugin-admin
         path: user/plugins/admin
+        scm: github
+    email:
+        src: grav-plugin-email
+        path: user/plugins/email
+        scm: github
+    form:
+        src: grav-plugin-form
+        path: user/plugins/form
+        scm: github
+    login:
+        src: grav-plugin-login
+        path: user/plugins/login
         scm: github
     error:
         src: grav-plugin-error
@@ -83,14 +99,6 @@ links:
     relatedpages:
         src: grav-plugin-relatedpages
         path: user/plugins/relatedpages
-        scm: github
-    email:
-        src: grav-plugin-email
-        path: user/plugins/email
-        scm: github
-    form:
-        src: grav-plugin-form
-        path: user/plugins/form
         scm: github
     taxonomylist:
         src: grav-plugin-taxonomylist
