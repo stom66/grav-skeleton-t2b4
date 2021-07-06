@@ -12,11 +12,15 @@ This is the T2B4 Grav skeleton. It includes a copy of the Grav `user` folder, co
 
 As this theme is under development the only way to install it is to manually replace the `user` folder of a default Grav install with this repository.
 
+* Clone the main grav repostiory
+* Replace the `user` folder with this skeleton repostitory
+* Run `bin/grav install`
+
 You can do this from the command line as follows:
 
 ```
 git clone -b master https://github.com/getgrav/grav.git public_html
-mv public_html/user public_html/user.old
+rm -rf public_html/user
 git clone https://github.com/stom66/grav-skeleton-t2b4 public_html/user
 cd public_html
 bin/grav install
