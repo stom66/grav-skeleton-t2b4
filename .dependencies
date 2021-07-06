@@ -3,6 +3,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-admin
         path: user/plugins/admin
         branch: develop
+    flex-objects:
+        url: https://github.com/trilbymedia/grav-plugin-flex-objects
+        path: user/plugins/flex-objects
+        branch: develop
     email:
         url: https://github.com/getgrav/grav-plugin-email
         path: user/plugins/email
@@ -59,6 +63,10 @@ links:
     admin:
         src: grav-plugin-admin
         path: user/plugins/admin
+        scm: github
+    flex-objects:
+        src: grav-plugin-flex-objects
+        path: user/plugins/flex-objects
         scm: github
     email:
         src: grav-plugin-email
