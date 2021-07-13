@@ -59,6 +59,10 @@ git:
         url: https://github.com/stom66/grav-theme-t2b4
         path: user/themes/t2b4
         branch: main
+    color-filters:
+        url: https://github.com/stom66/grav-plugin-color-filters
+        path: user/plugins/color-filters
+        branch: master
 links:
     admin:
         src: grav-plugin-admin
@@ -119,4 +123,8 @@ links:
     t2b4:
         src: grav-theme-t2b4
         path: user/themes/t2b4
+        scm: github
+    color-filters:
+        src: grav-plugin-color-filters
+        path: user/plugins/color-filters
         scm: github
