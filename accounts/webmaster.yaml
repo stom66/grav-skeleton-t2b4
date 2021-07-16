@@ -1,0 +1,11 @@
+state: enabled
+email: tomsteventon@gmail.com
+fullname: 'Tom Steventon'
+title: webmaster
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$XZERZjeNVQQ.Q9/PQo5qAuA0EhS.5R8cCWjQ/K37fgek9WTiLukR.
