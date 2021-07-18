@@ -63,13 +63,6 @@ git:
         url: https://github.com/getgrav/grav-plugin-taxonomylist
         path: user/plugins/taxonomylist
         branch: develop
-<<<<<<< HEAD
-=======
-    archives:
-        url: https://github.com/getgrav/grav-plugin-archives
-        path: user/plugins/archives
-        branch: develop
->>>>>>> 93e843285119e4aad0d0e46478500f9069e4558f
     t2b5:
         url: https://github.com/stom66/grav-theme-t2b5
         path: user/themes/t2b5
@@ -139,21 +132,7 @@ links:
         src: grav-plugin-taxonomylist
         path: user/plugins/taxonomylist
         scm: github
-<<<<<<< HEAD
     t2b5:
         src: grav-theme-t2b5
         path: user/themes/t2b5
-=======
-    archives:
-        src: grav-plugin-archives
-        path: user/plugins/archives
-        scm: github
-    t2b5:
-        src: grav-theme-t2b5
-        path: user/themes/t2b5
-        scm: github
-    color-filters:
-        src: grav-plugin-color-filters
-        path: user/plugins/color-filters
->>>>>>> 93e843285119e4aad0d0e46478500f9069e4558f
         scm: github
