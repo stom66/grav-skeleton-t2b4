@@ -100,9 +100,11 @@ form:
         submit:
           type: submit
           value: Submit
+          classes: btn btn-primary
         reset:
           type: reset
           value: Reset
+          classes: btn btn-primary
 
     process:
         captcha: true
