@@ -1,5 +1,5 @@
 ---
-title: Modular
+title: Modular Template
 content:
     items: '@self.modular'
     order:
