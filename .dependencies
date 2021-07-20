@@ -59,6 +59,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-simplesearch
         path: user/plugins/simplesearch
         branch: develop
+    sitemap:
+        url: https://github.com/getgrav/grav-plugin-sitemap
+        path: user/plugins/sitemap
+        branch: develop
     taxonomylist:
         url: https://github.com/getgrav/grav-plugin-taxonomylist
         path: user/plugins/taxonomylist
@@ -127,6 +131,10 @@ links:
     simplesearch:
         src: grav-plugin-simplesearch
         path: user/plugins/simplesearch
+        scm: github
+    sitemap:
+        src: grav-plugin-sitemap
+        path: user/plugins/sitemap
         scm: github
     taxonomylist:
         src: grav-plugin-taxonomylist
