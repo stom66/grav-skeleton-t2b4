@@ -1,37 +1,65 @@
 # ![](https://avatars1.githubusercontent.com/u/8237355?v=2&s=50) Grav Skeleton T2B5
 
-This is the T2B5 Grav skeleton. It includes a copy of the Grav `user` folder, configured to use the T2B5 theme and is provided with sample pages and relevant config files. See the [grav-theme-t2b5](https://github.com/stom66/grav-theme-t2b5) repository for more information on using the theme itself.
+This is the Grav T2B5 Skeleton. It includes a copy of the Grav, configured to use the [T2B5 theme](https://github.com/stom66/grav-theme-t2b5) and is provided with sample pages, images, and relevant config files.
 
-# Features
+Using this Skeleton is the recommended way to use the theme. For downloads, see the [Latest Releases](https://github.com/stom66/grav-skeleton-t2b5/releases/latest).
 
-* Mobile-first, responsive Layout
-* Numerous customizable options through admin interface
-* 25 Predefined Bootswatch themes
+## Features
 
-# Installation for a new site
+-   Mobile-first, responsive Layout via Bootstrap 5.3
+-   25 selectable Bootswatch themes
+-   Icon packs: FontAwesome
+-   Numerous customizable options through admin interface
+-   A load of SEO meta tags, including OpenGraph, TwitterCard
 
-As this theme is under development the only way to install it is to manually replace the `user` folder of a default Grav install with this repository.
+#### Included Plugins
 
-* Clone the main grav repostiory
-* Replace the `user` folder with this skeleton repostitory
-* Run `bin/grav install`
+-   [Google Analytics](https://github.com/escopecz/grav-ganalytics)
+-   [Color Tools](https://github.com/trilbymedia/grav-plugin-color-tools/)
 
-You can do this from the command line as follows:
+## Installation
+
+-   Download the `grav-skeleton-*.zip` file from the [Latest Releases](https://github.com/stom66/grav-skeleton-t2b5/releases/latest) section.
+    -   Using the version with the Admin panel makes it much easier to configure the theme.
+-   Unzip it somewhere accessible
+-   Run the following in a terminal:
+
+    ```bash
+    bin/gpm selfupgrade -f
+    bin/gpm update
+    ```
+
+Test the site works as expected, and you can browse the default content.
+
+-   Run a local dev server with:
+
+    ```bash
+    bin/grav server
+    ```
+
+## Post-install steps
+
+Some additional steps you can take after installing the theme to get the most from it:
+
+-   Update `/user/config/site.yaml`, via _Admin -> Configuration -> Site_
+    -   Set the `Site Title`
+    -   Set the default `Author`, `Email`
+    -   Update the Metadata `description` property
+    -   Update the Metadata `keywords` property
+-   Customise `/user/config/themes/t2b5.yaml` via _Admin -> Themes -> T2B5_
+-   Choose an optional Bootswatch theme in the settings
+-   Add `Sitemap: https://example.com/sitemap.xml` to your `robots.txt` file
+-   Upload your [favicons](#favicons)
+-   Configure the Plugin: Google Analytics
+    -   Set your Tracking ID
+    -   Enable the plugin
+
+## Documentation
+
+The full Grav documentation can be found from [learn.getgrav.org](https://learn.getgrav.org).
+
+Theme documentation can be found in the [grav-theme-t2b5](https://github.com/stom66/grav-theme-t2b5) repository.
 
 ```
-git clone -b master https://github.com/getgrav/grav.git public_html
-rm -rf public_html/user
-git clone https://github.com/stom66/grav-skeleton-t2b5 public_html/user
-cd public_html
-bin/grav install
+
 ```
-
-**TIP:** Check out the [general Grav installation instructions](http://learn.getgrav.org/basics/installation) for more details on this process.
-
-
-### Documentation
-
-The full documentation can be found from [learn.getgrav.org](https://learn.getgrav.org).
-
-See the [grav-theme-t2b5](https://github.com/stom66/grav-theme-t2b5) repository for more information on using the theme itself.
-

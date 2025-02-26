@@ -1,11 +1,11 @@
 name: T2B5 Site
-version: 1.0.0
-description: "T2B5 is a minimal Grav implementation with Bootstrap 5.0, Bootswatch, FontAwesome, Hoever.css and Animate.css"
+version: 0.2.1
+description: "T2B5 is a minimal Grav implementation with Bootstrap 5.3, Bootswatch, FontAwesome, Hoever.css and Animate.css"
 icon: group
 author:
-  name: TomSquared
-  email: toms@tomsquared.co.uk
-  url: https://tomsquared.co.uk
+    name: TomSquared
+    email: toms@tomsquared.co.uk
+    url: https://tomsquared.co.uk
 homepage: https://github.com/stom66/grav-skeleton-t2b5
 demo: https://grav.tomsquared.co.uk
 keywords: bootstrap, bootswatch, hover.css, animate.css, grav, skeleton
